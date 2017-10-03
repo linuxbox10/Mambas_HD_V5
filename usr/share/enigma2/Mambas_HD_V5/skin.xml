@@ -1,0 +1,1711 @@
+<skin>
+  <!-- Mambas_HD_V5 Skin for Enigma2 -->
+  <!-- Designed by mamba65-->
+  <!-- ##### It is not allowed to copy and say that you did ####### -->
+  <!-- You can modify and redistribute it as long as you keep this License for the skin and all of your modifications -->
+  <output id="0">
+    <resolution xres="1280" yres="720" bpp="32" />
+  </output>
+  <colors>
+    <color name="background" value="#00808888" />
+    <color name="background0" value="#00c04040" />
+    <color name="background1" value="#20000000" />
+    <color name="background2" value="#2538454e" />
+    <color name="background3" value="#2548555e" />
+    <color name="backgroundNT" value="#002f3942" />
+    <color name="black" value="#00000000" />
+    <color name="blue" value="#000064c7" />
+    <color name="daisy" value="#00f7dc31" />
+    <color name="dark" value="#00062748" />
+    <color name="darkgrey" value="#00555556" />
+    <color name="darkgrey1" value="#00333333" />
+    <color name="foreground" value="#00ffffff" />
+    <color name="Gelbgrün" value="#0057a639" />
+    <color name="green" value="#00389416" />
+    <color name="grey" value="#00aaaaaa" />
+    <color name="Leuchtgelb" value="#00ffff00" />
+    <color name="lightgrey" value="#00cccccc" />
+    <color name="listback" value="#254f7497" />
+    <color name="listback1" value="#00546475" />
+    <color name="mambasAccent1" value="#00bbbbbb" />
+    <color name="mambasBackground" value="#40000000" />
+    <color name="mambasBlue" value="#001677d2" />
+    <color name="mambaschannellist" value="#00dbb96e" />
+    <color name="mambasForeground" value="#00ffffff" />
+    <color name="mambasPreTrans" value="#ccffffff" />
+    <color name="mambasPreTrans2" value="#dfffffff" />
+    <color name="mambasSelection" value="#00149baf" />
+    <color name="menu" value="#00062748" />
+    <color name="orange" value="#00ffa323" />
+    <color name="orange1" value="#00ff3300" />
+    <color name="red" value="#00f23d21" />
+    <color name="secondBG" value="#162b3447" />
+    <color name="secondFG" value="#00ff8000" />
+    <color name="text_shadow" value="#00c6d326" />
+    <color name="transparent" value="#ff000000" />
+    <color name="transpBlack" value="#80000000" />
+    <color name="transpWhite" value="#80ffffff" />
+    <color name="un232a33" value="#00232a33" />
+    <color name="un25062748" value="#25062748" />
+    <color name="un2518252e" value="#2518252e" />
+    <color name="un25344452" value="#25344452" />
+    <color name="un333333" value="#00333333" />
+    <color name="un56c856" value="#00c87f00" />
+    <color name="un58bcff" value="#0058bcff" />
+    <color name="un59c9ff" value="#0059c9ff" />
+    <color name="un606060" value="#00606060" />
+    <color name="un666666" value="#00666666" />
+    <color name="un808080" value="#00808080" />
+    <color name="un808888" value="#00808888" />
+    <color name="un9161819" value="#09161819" />
+    <color name="un9f1313" value="#009f1313" />
+    <color name="undcaaaa" value="#00dcaaaa" />
+    <color name="undcdcdc" value="#00dcdcdc" />
+    <color name="undf0b1300" value="#df0b1300" />
+    <color name="unec0005" value="#00ec0005" />
+    <color name="white" value="#00ffffff" />
+    <color name="wm_citro" value="#00bfff00" />
+    <color name="wm_napis" value="#00dfff00" />
+    <color name="yellow" value="#00bab329" />
+    <color name="yellow1" value="#00d47e45" />
+  </colors>
+  <windowstyle type="skinned" id="0">
+    <title offset="20,13" font="Regular;35" />
+    <color name="Background" color="background1" />
+    <color name="LabelForeground" color="white" />
+    <color name="ListboxBackground" color="background1" />
+    <color name="ListboxForeground" color="white" />
+    <color name="ListboxSelectedBackground" color="darkgrey1" />
+    <color name="ListboxSelectedForeground" color="white" />
+    <color name="ListboxMarkedBackground" color="background1" />
+    <color name="ListboxMarkedForeground" color="green" />
+    <color name="ListboxMarkedAndSelectedBackground" color="background1" />
+    <color name="ListboxMarkedAndSelectedForeground" color="red" />
+    <color name="WindowTitleForeground" color="white" />
+    <color name="WindowTitleBackground" color="background1" />
+    <borderset name="bsWindow">
+      <pixmap pos="bpTopLeft" filename="Mambas_HD_V5/m65_back/okviri/b_tl.png" />
+      <pixmap pos="bpTop" filename="Mambas_HD_V5/m65_back/okviri/b_t.png" />
+      <pixmap pos="bpTopRight" filename="Mambas_HD_V5/m65_back/okviri/b_tr.png" />
+      <pixmap pos="bpLeft" filename="Mambas_HD_V5/m65_back/okviri/b_l.png" />
+      <pixmap pos="bpRight" filename="Mambas_HD_V5/m65_back/okviri/b_r.png" />
+      <pixmap pos="bpBottomLeft" filename="Mambas_HD_V5/m65_back/okviri/b_bl.png" />
+      <pixmap pos="bpBottom" filename="Mambas_HD_V5/m65_back/okviri/b_b.png" />
+      <pixmap pos="bpBottomRight" filename="Mambas_HD_V5/m65_back/okviri/b_br.png" />
+    </borderset>
+  </windowstyle>
+  <windowstyle type="skinned" id="1">
+    <color name="Background" color="black" />
+    <color name="LabelForeground" color="white" />
+    <color name="ListboxBackground" color="un808888" />
+    <color name="ListboxForeground" color="white" />
+    <color name="ListboxSelectedBackground" color="un808888" />
+    <color name="ListboxSelectedForeground" color="white" />
+    <color name="ListboxMarkedBackground" color="un808888" />
+    <color name="ListboxMarkedForeground" color="white" />
+    <color name="ListboxMarkedAndSelectedBackground" color="un808888" />
+    <color name="ListboxMarkedAndSelectedForeground" color="white" />
+    <color name="WindowTitleForeground" color="white" />
+    <color name="WindowTitleBackground" color="black" />
+  </windowstyle>
+  <!-- Scrollbars -->
+  <windowstylescrollbar id="4">
+    <value name="BackgroundPixmapTopHeight" value="16" />
+    <value name="BackgroundPixmapBottomHeight" value="16" />
+    <value name="ValuePixmapTopHeight" value="2" />
+    <value name="ValuePixmapBottomHeight" value="2" />
+    <value name="ScrollbarWidth" value="10" />
+    <value name="ScrollbarBorderWidth" value="0" />
+    <pixmap name="BackgroundPixmap" filename="Mambas_HD_V5/m65_back/scrollbarbackground.png" />
+    <pixmap name="ValuePixmap" filename="Mambas_HD_V5/m65_back/scrollbarslider.png" />
+  </windowstylescrollbar>
+  <fonts>
+    <font filename="/usr/share/enigma2/Mambas_HD_V5/m65_fonts/LADYCA__.ttf" name="Regular" scale="100" />
+    <font filename="/usr/share/enigma2/Mambas_HD_V5/m65_fonts/OpenSans-Regular.ttf" name="Replacement" scale="90" replacement="1" />
+    <font filename="tuxtxt.ttf" name="Console" scale="100" />
+    <font filename="lcd.ttf" name="LCD" scale="100" />
+  </fonts>
+  <subtitles>
+    <sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
+    <sub name="Subtitle_Regular" font="Regular;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
+    <sub name="Subtitle_Bold" font="Replacement;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
+    <sub name="Subtitle_Italic" font="Regular;30" foregroundColor="undcaaaa" shadowColor="#40101010" shadowOffset="3,3" />
+  </subtitles>
+  <screen name="SubtitleDisplay" position="0,0" size="1280,720" zPosition="-1" flags="wfNoBorder" backgroundColor="transparent" />
+  <!-- Volume -->
+  <screen name="Volume" position="center,center" zPosition="1" size="128,128" title="Volume" flags="wfNoBorder" transparent="0" backgroundColor="transparent">
+    <ePixmap pixmap="Mambas_HD_V5/m65_back/vol_back.png" position="1,0" size="128,128" alphatest="off" zPosition="1" transparent="0" />
+    <widget name="Volume" pixmap="Mambas_HD_V5/m65_back/vol.png" position="1,0" zPosition="2" size="128,128" transparent="1" alphatest="off" />
+    <widget source="global.CurrentTime" render="MetVolume" zPosition="3" position="1,129" size="346,38" font="Replacement;28" valign="center" halign="center" foregroundColor="white" backgroundColor="transpBlack" transparent="1" />
+  </screen>
+  <!-- Reboot -->
+  <screen name="QuitMainloopScreen" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Mambas_HD_V5/m65_back/EPGSelection.png" alphatest="on" transparent="1" />
+    <eLabel text="Restarting Enigma2  Wait..." position="0,160" size="1280,36" zPosition="3" halign="center" font="Replacement;32" transparent="1" foregroundColor="blue" backgroundColor="black" />
+    <eLabel text="For Support and contact me at ~http://www.crosatelite.com ~ mamba65 ~..." position="0,199" size="1280,36" zPosition="3" halign="center" font="Replacement;32" transparent="1" foregroundColor="blue" backgroundColor="black" />
+    <ePixmap position="494,249" zPosition="0" size="250,230" pixmap="Mambas_HD_V5/prev.png" alphatest="blend" />
+  </screen>
+  <screen name="Mute" position="67,50" size="64,64" title="Mute" backgroundColor="transparent" zPosition="10" flags="wfNoBorder" transparent="0">
+    <ePixmap pixmap="Mambas_HD_V5/m65_back/mute.png" position="1,1" size="64,64" zPosition="-5" alphatest="off" />
+  </screen>
+  <!-- Main InfoBar -->
+  <screen name="InfoBar" position="0,0" size="1280,720" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,center" size="1306,720" pixmap="Mambas_HD_V5/m65_back/info_panel.png" zPosition="-1" transparent="1" alphatest="off" />
+    <eLabel backgroundColor="darkgrey1" position="1129,186" size="124,3" zPosition="1" foregroundColor="un232a33" />
+    <!-- /* ClockWidget -->
+    <widget source="global.CurrentTime" render="Label" position="1126,25" size="137,37" font="Regular; 30" halign="center" backgroundColor="transpBlack" transparent="1" valign="bottom">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1053,45" size="148,20" font="Regular; 18" halign="left" foregroundColor="white" backgroundColor="transpBlack" transparent="1" valign="center">
+      <convert type="ClockToText">Format: %e. %B</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1053,25" size="125,20" font="Regular; 18" halign="left" foregroundColor="white" backgroundColor="transpBlack" transparent="1">
+      <convert type="ClockToText">Format: %A</convert>
+    </widget>
+    <!-- /* InfoWidget Provider and CAM(CENTER) -->
+    <widget source="session.CurrentService" render="PicCript2" path="cript" position="1149,426" size="100,60" alphatest="blend" zPosition="3" />
+    <widget source="session.CurrentService" render="PiconSatTV" position="1043,359" size="100,60" zPosition="4" transparent="1" alphatest="on" />
+    <widget source="session.CurrentService" render="PicEmu2" position="1149,291" size="100,60" transparent="1" alphatest="blend" zPosition="3" />
+    <widget source="session.CurrentService" zPosition="4" render="Label" position="128,59" size="568,22" backgroundColor="background" transparent="1" font="Regular; 18" halign="left">
+      <convert type="PliExtraInfo">CryptoInfo</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="128,12" size="887,22" backgroundColor="background" transparent="1" zPosition="2" font="Regular; 18" valign="center" halign="left">
+      <convert type="CaidInfo2">Default</convert>
+    </widget>
+    <!-- Provider Name -->
+    <widget source="session.CurrentService" render="Picon" position="1043,494" size="100,60" zPosition="1" backgroundColor="background" transparent="1" alphatest="on">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <widget source="session.CurrentService" render="EmptyEpg" position="82,565" size="831,56" font="Replacement; 55" backgroundColor="transpGrey" transparent="1" halign="left" foregroundColor="white" zPosition="1">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget pixmap="Mambas_HD_V5/m65_back/device2.png" position="148,662" render="Progress" size="783,6" source="session.Event_Now" transparent="1" alphatest="on" zPosition="1" backgroundColor="background">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="session.Event_Now" render="EmptyEpg" position="148,632" size="783,27" halign="center" font="Regular; 23" foregroundColor="white" transparent="1" noWrap="1" backgroundColor="background" valign="center">
+      <convert type="MetEventName">Name</convert>
+    </widget>
+    <widget source="session.Event_Next" render="Label" position="148,672" size="783,27" halign="left" font="Replacement; 23" backgroundColor="background" transparent="1" valign="center" foregroundColor="background">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.CurrentService" render="PiconProv" path="/Mambas_HD_V5/mambas_prov" position="1036,261" size="140,27" zPosition="5" transparent="1" halign="center" alphatest="blend">
+      <convert type="ServiceName">Provider</convert>
+    </widget>
+    <ePixmap position="1011,654" zPosition="2" size="22,22" pixmap="Mambas_HD_V5/m65_icons/icon_norec_light.png" transparent="1" alphatest="blend" />
+    <widget source="session.RecordState" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/icon_rec_light.png" position="1011,654" zPosition="3" size="22,22" transparent="1" alphatest="blend">
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+    <eLabel text="AGC:" position="1162,641" size="50,18" font="Regular; 16" backgroundColor="darkgrey1" transparent="1" foregroundColor="foreground" noWrap="1" />
+    <widget source="session.FrontendStatus" render="Label" position="1201,640" size="60,18" font="Regular; 16" backgroundColor="transpGrey" transparent="1">
+      <convert type="FrontendInfo">AGC</convert>
+    </widget>
+    <eLabel text="BER:" position="1162,671" size="50,18" font="Regular; 16" backgroundColor="darkgrey1" transparent="1" foregroundColor="foreground" />
+    <widget source="session.FrontendStatus" render="Label" position="1206,671" size="35,18" font="Regular; 16" backgroundColor="transpGrey" transparent="1">
+      <convert type="FrontendInfo">BER</convert>
+    </widget>
+    <eLabel text="SNR:" position="1162,610" size="50,18" font="Regular; 16" backgroundColor="darkgrey1" transparent="1" foregroundColor="foreground" noWrap="1" />
+    <widget source="session.FrontendStatus" render="Label" position="1196,610" size="69,18" font="Regular; 16" backgroundColor="transpGrey" transparent="1">
+      <convert type="FrontendInfo">SNRdB</convert>
+    </widget>
+    <eLabel text="Freq:" position="559,59" size="63,22" font="Regular; 18" backgroundColor="black" transparent="1" foregroundColor="white" zPosition="5" />
+    <widget source="session.CurrentService" render="Label" position="602,59" size="280,22" font="Regular; 18" backgroundColor="background" transparent="1" zPosition="5" text="12519 V 27500 Auto" halign="left">
+      <convert type="ServiceName2">%F %p %Y %f</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Label" position="42,642" size="47,18" halign="left" font="Regular; 16" backgroundColor="darkgrey1" transparent="1" valign="center" noWrap="1">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Label" position="79,642" size="52,18" halign="left" font="Regular; 16" backgroundColor="darkgrey1" transparent="1" valign="center">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format:- %H:%M</convert>
+    </widget>
+    <widget source="session.Event_Next" render="Label" position="42,674" size="47,18" halign="left" font="Regular; 16" backgroundColor="darkgrey1" transparent="1" noWrap="1">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+    <widget source="session.Event_Next" render="Label" position="79,674" size="52,18" halign="left" font="Regular; 16" backgroundColor="darkgrey1" transparent="1">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format:- %H:%M</convert>
+    </widget>
+    <ePixmap position="1043,443" zPosition="2" size="48,33" pixmap="Mambas_HD_V5/m65_icons/dolby_of.png" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/dolby_on.png" position="1043,443" zPosition="4" size="48,33" alphatest="blend">
+      <convert type="ServiceInfo">IsMultichannel</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap position="1148,375" zPosition="2" size="48,33" pixmap="Mambas_HD_V5/m65_icons/wide_of.png" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/wide_on.png" position="1148,375" zPosition="4" size="48,33" alphatest="blend">
+      <convert type="ServiceInfo">IsWidescreen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap position="52,22" zPosition="2" size="47,45" pixmap="Mambas_HD_V5/m65_icons/crypt_of_ext.png" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/crypt_on_ext.png" position="52,22" size="47,45" zPosition="4" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">721,1980</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap position="1043,304" zPosition="2" size="48,33" pixmap="Mambas_HD_V5/m65_icons/sub_of.png" transparent="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/sub_on.png" position="1043,304" zPosition="4" size="48,33" transparent="1" alphatest="blend">
+      <convert type="ServiceInfo">SubservicesAvailable</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap position="1094,443" size="48,33" pixmap="Mambas_HD_V5/m65_icons/hd_of.png" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/hd_on.png" position="1094,443" size="48,33" zPosition="4" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">721,1980</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap alphatest="blend" pixmap="Mambas_HD_V5/m65_icons/hbbtv_off.png" position="1199,375" size="48,33" zPosition="4" />
+    <widget source="HbbtvApplication" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/hbbtv_on.png" position="1199,375" zPosition="4" size="48,33" alphatest="blend">
+      <convert type="ConditionalShowHide">
+      </convert>
+    </widget>
+    <ePixmap position="1094,304" size="48,37" zPosition="2" pixmap="Mambas_HD_V5/m65_icons/ico_txt_off.png" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" position="1094,304" size="48,33" zPosition="3" pixmap="Mambas_HD_V5/m65_icons/ico_txt_on.png" alphatest="blend">
+      <convert type="ServiceInfo">HasTelext</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="1032,560" size="116,22" font="Regular; 16" halign="left" backgroundColor="black" transparent="1" foregroundColor="white" zPosition="14">
+      <convert type="PliExtraInfo">ResolutionString</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="128,36" zPosition="1" size="887,22" font="Regular; 18" halign="left" backgroundColor="background" transparent="1" foregroundColor="white" valign="center">
+      <convert type="ServiceName2">%P %B %S %s %M %T</convert>
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="A" position="1179,511" size="20,20" zPosition="13" font="Regular; 17" foregroundColor="black" backgroundColor="black" transparent="1">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="B" position="1179,511" size="20,20" zPosition="13" font="Regular; 17" foregroundColor="black" backgroundColor="black" transparent="1">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">1,1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="C" position="1179,511" size="20,20" zPosition="13" font="Regular; 17" foregroundColor="black" backgroundColor="black" transparent="1">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">2,2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="D" position="1179,511" size="20,20" zPosition="13" font="Regular; 17" foregroundColor="black" backgroundColor="black" transparent="1">
+      <convert type="FrontendInfo">NUMBER</convert>
+      <convert type="ValueRange">3,3</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/sat.png" position="1148,484" size="105,80" zPosition="3" alphatest="on">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-T" position="1180,576" size="52,18" font="Replacement; 16" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="4">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">2,2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-C" position="1180,576" size="52,18" font="Replacement; 16" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="4">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">1,1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.FrontendInfo" render="FixedLabel" text="DVB-S" position="1180,576" size="52,18" font="Replacement; 16" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="4">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <!-- Weather -->
+    <widget render="MSNWeatherPixmap" position="1028,120" size="95,95" source="session.MSNWeather" zPosition="33" alphatest="on" transparent="0">
+      <convert type="MSNWeather">weathericon,current,/usr/lib/enigma2/python/Plugins/Extensions/WeatherPlugin/icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" font="Replacement; 24" render="Label" position="1131,118" size="124,24" source="session.MSNWeather" transparent="1" zPosition="8" halign="center" foregroundColor="white">
+      <convert type="MSNWeather">temperature_current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" font="Regular; 18" foregroundColor="foreground" render="Label" position="1129,166" size="124,21" source="session.MSNWeather" zPosition="8" halign="left" transparent="1">
+      <convert type="MSNWeather">temperature_heigh_low,current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" font="Regular; 18" foregroundColor="white" render="Label" position="1127,143" size="138,23" source="session.MSNWeather" zPosition="3" halign="left" transparent="1">
+      <convert type="MSNWeather">temperature_text,current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" font="Regular; 18" foregroundColor="foreground" render="Label" position="1150,190" size="83,23" source="session.MSNWeather" zPosition="3" halign="center" transparent="1">
+      <convert type="MSNWeather">weekshortday,day2</convert>
+    </widget>
+    <widget backgroundColor="black" font="Regular; 18" render="Label" position="1115,216" size="150,20" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" valign="center" foregroundColor="white">
+      <convert type="MSNWeather">temperature_text,day2</convert>
+    </widget>
+    <widget render="MSNWeatherPixmap" position="1068,216" size="45,45" source="session.MSNWeather" zPosition="32" transparent="0" alphatest="blend">
+      <convert type="MSNWeather">weathericon,day2,/usr/lib/enigma2/python/Plugins/Extensions/WeatherPlugin/icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" font="Regular; 16" foregroundColor="foreground" render="Label" position="1211,237" size="46,24" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day2</convert>
+    </widget>
+    <widget backgroundColor="black" font="Regular; 16" foregroundColor="foreground" render="Label" position="1211,256" size="46,24" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day2</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" font="Regular; 22" foregroundColor="orange" render="Label" position="1028,83" size="233,34" source="session.MSNWeather" zPosition="4" halign="center" transparent="1">
+      <convert type="MSNWeather">city</convert>
+    </widget>
+    <!-- Temperatur -->
+    <eLabel text="TMP:" position="1044,613" size="55,20" font="Replacement; 16" backgroundColor="background" transparent="1" foregroundColor="foreground" noWrap="1" />
+    <widget source="global.CurrentTime" render="dTVMaxTemp" position="1079,613" size="75,20" font="Replacement; 17" backgroundColor="background" foregroundColor="mambascolor" transparent="1" zPosition="3">
+    </widget>
+    <eLabel text="FAN:" position="1044,654" size="59,20" font="Replacement; 16" backgroundColor="transpGrey" transparent="1" foregroundColor="foreground" noWrap="1" />
+    <widget source="session.FrontendStatus" render="Label" position="1078,654" size="85,20" font="Replacement; 16" backgroundColor="background" foregroundColor="mambascolor" transparent="1">
+      <convert type="Sensors">FanRPMfull</convert>
+    </widget>
+    <widget render="Progress" pixmap="Mambas_HD_V5/slider-b-r03.png" backgroundColor="background" position="1048,627" size="90,5" source="global.CurrentTime" transparent="1">
+      <convert type="Sensors">TempMAX55</convert>
+    </widget>
+    <widget render="Progress" pixmap="Mambas_HD_V5/slider-g-r03.png" backgroundColor="background" position="1048,669" size="90,5" source="global.CurrentTime" transparent="1">
+      <convert type="Sensors">FanRPM2000</convert>
+    </widget>
+  </screen>
+  <!-- SecondInfoBar -->
+  <screen name="SecondInfoBar" position="0,0" size="1280,720" title="Second InfoBar" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="session.CurrentService" render="PiconSatTV" position="265,41" size="100,60" zPosition="4" transparent="1" alphatest="on" />
+    <widget source="session.CurrentService" render="PicCript2" path="cript" position="445,41" size="100,60" alphatest="blend" zPosition="3" />
+    <widget source="session.CurrentService" render="PicEmu2" position="77,41" size="100,60" transparent="1" alphatest="blend" zPosition="3" />
+    <ePixmap position="0,0" size="1280,721" zPosition="-1" pixmap="Mambas_HD_V5/m65_back/second.png" />
+    <widget source="session.CurrentService" render="Picon" position="612,41" zPosition="4" size="100,60" transparent="1" alphatest="blend">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="716,41" size="500,27" font="Replacement; 22" noWrap="1" foregroundColor="white" transparent="1" backgroundColor="background1" halign="left">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="826,434" size="216,29" font="LCD; 28" backgroundColor="transpBlack" transparent="1" foregroundColor="black" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="856,464" size="166,46" font="LCD; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="black" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <eLabel text="TMP:" position="691,465" size="55,20" font="Regular; 16" backgroundColor="background" transparent="1" noWrap="1" foregroundColor="black" />
+    <widget source="global.CurrentTime" render="dTVMaxTemp" position="730,465" size="75,20" font="Console; 18" backgroundColor="background" foregroundColor="mambascolor" transparent="1">
+    </widget>
+    <eLabel text="FAN:" position="691,434" size="59,20" font="Regular; 16" backgroundColor="background" transparent="1" noWrap="1" foregroundColor="black" />
+    <widget source="session.FrontendStatus" render="Label" position="732,434" size="85,20" font="Regular; 18" backgroundColor="background" foregroundColor="mambascolor" transparent="1">
+      <convert type="Sensors">FanRPMfull</convert>
+    </widget>
+    <widget render="Progress" pixmap="Mambas_HD_V5/slider-b-r03.png" backgroundColor="background" position="690,453" size="140, 5" source="global.CurrentTime" transparent="1">
+      <convert type="Sensors">TempMAX55</convert>
+    </widget>
+    <widget render="Progress" pixmap="Mambas_HD_V5/slider-g-r03.png" backgroundColor="background" position="690,483" size="140, 5" source="global.CurrentTime" transparent="1">
+      <convert type="Sensors">FanRPM2000</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Replacement; 25" foregroundColor="foreground" noWrap="1" position="715,71" render="Label" size="500,27" source="session.Event_Now" transparent="1" zPosition="1" halign="left">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Regular; 20" foregroundColor="white" halign="left" position="1140,43" render="Label" size="74,23" source="session.Event_Now" transparent="1" zPosition="1">
+      <convert type="EventTime">Remaining</convert>
+      <convert type="RemainingToText">InMinutes</convert>
+    </widget>
+    <widget pixmap="Mambas_HD_V5/m65_back/event_prog.png" position="715,68" render="Progress" size="434,4" source="session.Event_Now" zPosition="7" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="session.Event_Now" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=90,repeat=2,startdelay=1000,wrap" position="77,123" size="494,359" font="Regular; 24" zPosition="3" foregroundColor="white" backgroundColor="transpBlack" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <eLabel backgroundColor="un808888" position="517,554" size="6,68" zPosition="1" foregroundColor="black" />
+    <ePixmap position="652,198" size="32,32" pixmap="Mambas_HD_V5/m65_icons/memory.png" zPosition="2" alphatest="blend" transparent="1" />
+    <ePixmap position="652,258" size="32,32" pixmap="Mambas_HD_V5/m65_icons/usb.png" zPosition="2" alphatest="blend" transparent="1" />
+    <ePixmap position="652,318" size="32,32" pixmap="Mambas_HD_V5/m65_icons/module.png" zPosition="2" alphatest="blend" transparent="1" />
+    <ePixmap position="652,380" size="32,32" pixmap="Mambas_HD_V5/m65_icons/usb.png" zPosition="2" alphatest="blend" transparent="1" />
+    <ePixmap position="652,141" size="32,32" pixmap="Mambas_HD_V5/m65_icons/hdd.png" zPosition="2" alphatest="blend" transparent="1" />
+    <ePixmap position="691,218" zPosition="2" size="350,22" pixmap="Mambas_HD_V5/m65_icons/device1_bg.png" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="Mambas_HD_V5/m65_icons/device1.png" position="697,223" size="338,11" transparent="1" zPosition="3">
+      <convert type="ProgressDiskSpaceInfo">MemTotal</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="691,190" size="511,26" halign="left" valign="center" font="Replacement; 22" transparent="1" backgroundColor="background" foregroundColor="black">
+      <convert type="ProgressDiskSpaceInfo">MemTotal,Full</convert>
+    </widget>
+    <ePixmap position="691,278" zPosition="2" size="350,22" pixmap="Mambas_HD_V5/m65_icons/device1_bg.png" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="Mambas_HD_V5/m65_icons/device1.png" position="697,283" size="338,11" transparent="1" zPosition="3">
+      <convert type="ProgressDiskSpaceInfo">SwapTotal</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="691,250" size="511,26" halign="left" valign="center" font="Replacement; 22" transparent="1" backgroundColor="background">
+      <convert type="ProgressDiskSpaceInfo">SwapTotal,Full</convert>
+    </widget>
+    <ePixmap position="691,336" zPosition="2" size="350,22" pixmap="Mambas_HD_V5/m65_icons/device1_bg.png" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="Mambas_HD_V5/m65_icons/device1.png" position="697,341" size="336,11" transparent="1" zPosition="3">
+      <convert type="ProgressDiskSpaceInfo">FleshInfo</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="691,308" size="511,26" halign="left" valign="center" font="Replacement; 22" transparent="1" backgroundColor="background" foregroundColor="black">
+      <convert type="ProgressDiskSpaceInfo">Flesh,Full</convert>
+    </widget>
+    <ePixmap position="691,401" zPosition="2" size="350,22" pixmap="Mambas_HD_V5/m65_icons/device1_bg.png" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="Mambas_HD_V5/m65_icons/device1.png" position="697,406" size="338,11" transparent="1" zPosition="3">
+      <convert type="ProgressDiskSpaceInfo">UsbInfo</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="691,371" size="511,26" halign="left" valign="center" font="Replacement; 22" transparent="1" backgroundColor="background">
+      <convert type="ProgressDiskSpaceInfo">UsbInfo,Full</convert>
+    </widget>
+    <ePixmap position="691,160" zPosition="2" size="350,22" pixmap="Mambas_HD_V5/m65_icons/device1_bg.png" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="Mambas_HD_V5/m65_icons/device1.png" position="697,164" size="338,11" transparent="1" zPosition="3">
+      <convert type="ProgressDiskSpaceInfo">HddInfo</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="691,131" size="511,26" halign="left" valign="center" font="Replacement; 22" transparent="1" backgroundColor="background">
+      <convert type="ProgressDiskSpaceInfo">HddInfo,Full</convert>
+    </widget>
+    <widget font="Regular; 18" halign="center" position="1052,433" render="Label" size="151,97" source="session.CurrentService" backgroundColor="background" transparent="1">
+      <convert type="BoxInfo">Uptime</convert>
+    </widget>
+    <!-- Weather Info -->
+    <widget alphatest="blend" render="MSNWeatherPixmap" position="318,556" size="95,95" source="session.MSNWeather" transparent="1" zPosition="1">
+      <convert type="MSNWeather">weathericon,current,/usr/lib/enigma2/python/Plugins/Extensions/WeatherPlugin/icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 40" render="Label" position="423,557" size="84,61" source="session.MSNWeather" transparent="1" zPosition="8" halign="center" foregroundColor="foreground">
+      <convert type="MSNWeather">temperature_current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="435,650" size="90,21" source="session.MSNWeather" zPosition="8" halign="left" transparent="1">
+      <convert type="MSNWeather">temperature_heigh_low,current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 19" foregroundColor="foreground" render="Label" position="423,626" size="123,23" source="session.MSNWeather" zPosition="3" halign="left" transparent="1">
+      <convert type="MSNWeather">temperature_text,current</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="540,549" size="83,23" source="session.MSNWeather" zPosition="3" halign="center" transparent="1">
+      <convert type="MSNWeather">weekshortday,day2</convert>
+    </widget>
+    <widget alphatest="on" render="MSNWeatherPixmap" position="538,573" size="45,45" source="session.MSNWeather" transparent="1" zPosition="1">
+      <convert type="MSNWeather">weathericon,day2,/usr/lib/enigma2/python/Plugins/Extensions/WeatherPlugin/icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="585,569" size="38,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day2</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="585,592" size="38,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day2</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="638,549" size="83,23" source="session.MSNWeather" zPosition="3" halign="center" transparent="1">
+      <convert type="MSNWeather">weekshortday,day3</convert>
+    </widget>
+    <widget alphatest="on" render="MSNWeatherPixmap" position="635,573" size="45,45" source="session.MSNWeather" transparent="1" zPosition="1">
+      <convert type="MSNWeather">weathericon,day3,/usr/lib/enigma2/python/Plugins/Extensions/WeatherPlugin/icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="682,569" size="38,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day3</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="682,592" size="38,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day3</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="740,549" size="83,23" source="session.MSNWeather" zPosition="3" halign="center" transparent="1">
+      <convert type="MSNWeather">weekshortday,day4</convert>
+    </widget>
+    <widget alphatest="on" render="MSNWeatherPixmap" position="737,573" size="45,45" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,day4,/usr/lib/enigma2/python/Plugins/Extensions/WeatherPlugin/icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="784,569" size="38,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day4</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="784,592" size="38,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day4</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="849,549" size="83,23" source="session.MSNWeather" zPosition="3" halign="center" transparent="1">
+      <convert type="MSNWeather">weekshortday,day5</convert>
+    </widget>
+    <widget alphatest="on" render="MSNWeatherPixmap" position="848,573" size="45,45" source="session.MSNWeather" transparent="1" zPosition="5">
+      <convert type="MSNWeather">weathericon,day5,/usr/lib/enigma2/python/Plugins/Extensions/WeatherPlugin/icons/,png</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="895,569" size="38,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" valign="center">
+      <convert type="MSNWeather">temperature_high,day5</convert>
+    </widget>
+    <widget backgroundColor="background1" font="Replacement; 18" foregroundColor="foreground" render="Label" position="895,592" size="38,24" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" noWrap="1">
+      <convert type="MSNWeather">temperature_low,day5</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 28" foregroundColor="foreground" render="Label" position="617,615" size="282,34" source="session.MSNWeather" zPosition="3" halign="left" transparent="1">
+      <convert type="MSNWeather">city</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="background1" font="Replacement; 24" foregroundColor="foreground" render="Label" position="732,647" size="36,30" source="session.MSNWeather" zPosition="3" halign="right" transparent="1">
+      <convert type="MSNWeather">humidity</convert>
+    </widget>
+    <eLabel text="Humidity :" position="617,647" size="126,30" zPosition="5" halign="left" font="Replacement; 24" backgroundColor="background1" transparent="1" foregroundColor="foreground" />
+    <eLabel text="%" position="760,647" size="30,30" zPosition="5" halign="right" font="Replacement; 24" backgroundColor="background1" transparent="1" foregroundColor="foreground" />
+  </screen>
+  <screen name="ChannelSelection" position="0,0" size="1280,720" title="Channel Selection" backgroundColor="transparent" zPosition="0" flags="wfNoBorder">
+    <ePixmap position="center,center" size="1280,720" zPosition="-1" pixmap="Mambas_HD_V5/m65_back/channel_list.png" />
+    <eLabel backgroundColor="background3" position="280,33" size="2,19" zPosition="1" foregroundColor="black" />
+    <eLabel backgroundColor="background3" position="159,32" size="2,19" zPosition="1" foregroundColor="black" />
+    <widget source="Title" render="Label" position="450,19" size="777,45" font="Regular; 40" backgroundColor="background1" halign="center" transparent="1" foregroundColor="un9f1313" />
+    <widget source="global.CurrentTime" render="Label" position="285,30" size="86,25" font="Replacement; 22" backgroundColor="background1" zPosition="3" halign="center" transparent="1" foregroundColor="foreground">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget pixmap="Mambas_HD_V5/m65_back/device2.png" position="53,613" render="Progress" size="776,5" source="session.Event_Now" zPosition="7" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="33,30" size="124,25" font="Replacement; 20" backgroundColor="background1" zPosition="3" halign="center" transparent="1" foregroundColor="foreground">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget name="list" position="46,72" size="1194,300" scrollbarMode="showNever" foregroundColorServiceNotAvail="#666666" colorServiceDescription="#91c9ff" colorServiceDescriptionSelected="white" picServiceEventProgressbar="Mambas_HD_V5/m65_icons/pl.png" selectionPixmap="Mambas_HD_V5/m65_icons/ls_720x24.png" transparent="1" serviceItemHeight="52" serviceNumberFont="Regular;24" serviceNameFont="Regular;22" serviceInfoFont="Regular;19" zPosition="3" />
+    <widget source="ServiceEvent" render="Label" position="54,572" zPosition="1" size="446,36" font="Replacement; 28" noWrap="1" backgroundColor="background1" transparent="1" halign="left" foregroundColor="un9f1313" valign="center">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="54,625" zPosition="1" size="506,30" font="Replacement; 24" valign="center" foregroundColor="mambasAccent1" backgroundColor="background" transparent="1" halign="left">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="501,576" zPosition="1" size="74,27" font="Replacement; 18" backgroundColor="background1" transparent="1" foregroundColor="transpWhite" halign="left">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">
+      </convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="548,576" zPosition="1" size="80,27" font="Replacement; 18" backgroundColor="background1" transparent="1" foregroundColor="transpWhite">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format:- %H:%M</convert>
+    </widget>
+    <widget source="session.Event_Now" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=90,repeat=2,startdelay=1000,wrap" position="177,388" size="1075,160" font="Regular; 24" zPosition="3" foregroundColor="white" backgroundColor="transpBlack" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Picon" position="45,481" size="100,60" zPosition="10" transparent="0" alphatest="blend">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <widget source="session.CurrentService" render="PiconProv" path="/Mambas_HD_V5/mambas_prov" position="608,637" size="176,30" zPosition="5" halign="center" transparent="1" alphatest="blend">
+      <convert type="ServiceName">Provider</convert>
+    </widget>
+    <eLabel text="VPid:" position="427,678" size="60,18" font="Replacement; 16" valign="center" halign="left" backgroundColor="background" transparent="1" zPosition="4" />
+    <widget source="session.CurrentService" render="Label" position="464,678" size="88,18" font="Replacement; 16" backgroundColor="background" transparent="1" zPosition="4" halign="left">
+      <convert type="ServiceInfo2">xAPID</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="54,657" size="400,21" font="Replacement; 18" backgroundColor="background" transparent="1" halign="center" noWrap="1" valign="center" text="19.2E  DVB-S2  10627 27500 3/4 8PSK" foregroundColor="mambasAccent1" zPosition="3">
+      <convert type="ServiceName2">%O  %s  %F %p %Y %f %M %b</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="54,678" size="335,21" font="Replacement; 18" backgroundColor="background" transparent="1" halign="center" noWrap="1" valign="center" text="19.2E  1:0:1:6D66:437:1:C00000:0:0:0" foregroundColor="mambasAccent1" zPosition="3">
+      <convert type="ServiceName2">Reference</convert>
+    </widget>
+    <eLabel text="APid:" position="552,678" size="60,18" font="Replacement; 16" valign="center" halign="left" backgroundColor="background" transparent="1" zPosition="4" />
+    <eLabel text="SID:" position="680,678" size="60,18" font="Replacement; 16" valign="center" halign="left" backgroundColor="background" transparent="1" zPosition="4" />
+    <widget source="session.CurrentService" render="Label" position="711,678" size="88,18" font="Replacement; 16" backgroundColor="background" transparent="1" zPosition="4" halign="left">
+      <convert type="ServiceInfo2">xSID</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="591,678" size="88,18" font="Replacement; 16" backgroundColor="background" transparent="1" zPosition="4" halign="left">
+      <convert type="ServiceInfo2">xVPID</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Picon" position="45,398" size="100,60" transparent="1" alphatest="blend">
+      <convert type="RefString">ServicelistRef</convert>
+    </widget>
+    <widget source="ServiceEvent" render="MetSimpleNextEvents" position="839,578" zPosition="3" size="163,119" font="Regular;18" foregroundColor="white" backgroundColor="background1" transparent="1">
+    </widget>
+    <eLabel name="new eLabel" position="715,579" size="138,23" text="Next on TV:" font="Replacement; 20" halign="center" transparent="1" zPosition="2" backgroundColor="background1" valign="center" noWrap="1" foregroundColor="un9f1313" />
+    <eLabel name="new eLabel" position="162,32" size="66,22" text="MENU" font="Replacement; 20" halign="center" transparent="0" zPosition="2" foregroundColor="white" backgroundColor="background" valign="center" />
+    <eLabel name="new eLabel" position="232,32" size="47,22" text="EPG" font="Replacement; 20" halign="center" transparent="0" zPosition="2" foregroundColor="white" backgroundColor="background" valign="center" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="1023,561" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="1023,596" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" position="1023,630" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_blue.png" position="1023,665" size="35,30" alphatest="on" />
+    <widget name="key_red" position="1055,561" zPosition="1" size="164,30" font="Regular; 22" halign="center" backgroundColor="background" transparent="1" />
+    <widget name="key_green" position="1055,596" zPosition="1" size="164,30" font="Regular; 22" halign="center" backgroundColor="background" transparent="1" />
+    <widget name="key_yellow" position="1055,631" zPosition="1" size="164,30" font="Regular; 22" halign="center" backgroundColor="background" transparent="1" />
+    <widget name="key_blue" position="1055,666" zPosition="1" size="164,30" font="Regular; 24" halign="center" backgroundColor="background" transparent="1" />
+  </screen>
+  <screen name="BouquetSelector" position="354,201" size="600,350" title="Choose bouquet" backgroundColor="transpBlack" borderWidth="0" borderColor="background1">
+    <widget name="menu" position="3,10" size="594,340" scrollbarMode="showOnDemand" itemHeight="35" transparent="1" />
+  </screen>
+  <screen name="EventView" position="0,-20" size="1280,720" zPosition="10" title="Eventview" backgroundColor="transparent" flags="wfNoBorder">
+    <eLabel name="new eLabel" position="273,656" size="741,4" backgroundColor="background0" foregroundColor="un232a33" />
+    <eLabel name="new eLabel" position="273,698" size="741,4" backgroundColor="background0" foregroundColor="un232a33" />
+    <eLabel name="new eLabel" position="273,200" size="741,4" backgroundColor="background0" foregroundColor="un232a33" />
+    <eLabel name="new eLabel" position="273,157" size="741,4" backgroundColor="background0" foregroundColor="un232a33" />
+    <ePixmap position="0,0" size="1278,720" zPosition="-1" pixmap="Mambas_HD_V5/m65_back/EventView.png" />
+    <widget name="epg_description" position="271,241" size="739,397" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <widget name="channel" position="282,115" size="300,42" zPosition="1" halign="left" font="Regular; 35" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <widget name="datetime" position="695,125" size="300,30" zPosition="1" halign="right" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="grey" />
+    <widget name="duration" position="696,94" size="300,30" zPosition="1" halign="right" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="grey" />
+    <eLabel backgroundColor="background0" position="273,116" size="3,40" zPosition="1" foregroundColor="un232a33" />
+    <widget source="session.Event_Now" render="Label" position="273,167" size="580,45" font="Regular; 30" halign="left" backgroundColor="background1" transparent="1" noWrap="1">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Progress" position="271,228" size="739,5" borderWidth="0" backgroundColor="white" transparent="1" zPosition="5">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="271,230" size="739,1" zPosition="1" foregroundColor="background1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="273,665" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="461,665" size="183,35" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" position="642,665" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_blue.png" position="829,665" size="35,30" alphatest="on" />
+    <widget name="key_red" position="303,665" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget name="key_green" position="491,665" zPosition="1" size="146,30" font="Regular; 22" halign="center" backgroundColor="lightgrey" transparent="1" />
+    <widget name="key_yellow" position="673,665" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget name="key_blue" position="860,665" zPosition="1" size="150,30" font="Regular; 24" halign="center" backgroundColor="transpBlack" transparent="1" />
+  </screen>
+  <screen name="EPGSelection" position="0,-15" size="1280,730" zPosition="10" title="EPG Selection" backgroundColor="transparent" flags="wfNoBorder">
+    <eLabel name="new eLabel" position="61,111" size="1165,4" backgroundColor="background0" foregroundColor="un232a33" />
+    <eLabel name="new eLabel" position="61,154" size="1165,4" backgroundColor="background0" foregroundColor="un232a33" />
+    <ePixmap position="  0, 0" size="1280,730" zPosition="-1" pixmap="Mambas_HD_V5/m65_back/EPGSelection.png" />
+    <eLabel backgroundColor="background0" position="58,111" size="3,47" zPosition="1" foregroundColor="un232a33" />
+    <widget source="global.CurrentTime" render="Label" position="873,59" size="360,40" font="Regular; 25" halign="center" backgroundColor="Gelbgrün" transparent="1" valign="center" zPosition="0" foregroundColor="wm_napis">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="783,49" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background" transparent="1" valign="center" foregroundColor="wm_napis">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="list" enableWrapAround="1" position="57,189" size="601,455" itemHeight="35" scrollbarMode="showOnDemand" backgroundColor="background1" transparent="1" />
+    <widget source="Event" render="Label" position="668,188" size="557,455" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="lightgrey">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget source="Service" render="Label" position="67,115" size="326,42" font="Regular; 30" backgroundColor="background1" transparent="1">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="414,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="599,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" position="787,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_blue.png" position="972,118" size="30,30" alphatest="on" transparent="1" />
+    <widget name="key_red" position="446,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="632,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_yellow" position="819,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_blue" position="1005,118" zPosition="1" size="164,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="EPGSelectionMulti" position="0,-15" size="1280,730" title="EPG Selection" backgroundColor="transparent" flags="wfNoBorder">
+    <eLabel name="new eLabel" position="61,111" size="1165,4" backgroundColor="background0" foregroundColor="un232a33" />
+    <eLabel name="new eLabel" position="61,154" size="1165,4" backgroundColor="background0" foregroundColor="un232a33" />
+    <ePixmap position="0,0" size="1280,730" zPosition="-1" pixmap="Mambas_HD_V5/m65_back/EPGSelection.png" />
+    <eLabel backgroundColor="background0" position="58,111" size="3,47" zPosition="1" foregroundColor="un232a33" />
+    <widget source="global.CurrentTime" render="Label" position="873,59" size="360,40" font="Regular; 25" halign="center" backgroundColor="Gelbgrün" transparent="1" valign="center" zPosition="0" foregroundColor="wm_napis">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="783,49" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background" transparent="1" valign="center" foregroundColor="wm_napis">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="list" enableWrapAround="1" position="57,189" size="601,455" itemHeight="35" scrollbarMode="showOnDemand" backgroundColor="background1" transparent="1" />
+    <widget source="Service" render="Label" position="67,115" size="326,42" font="Regular; 30" backgroundColor="background1" transparent="1">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="Event" render="Label" position="668,188" size="557,455" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="lightgrey">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <eLabel text="MENU" position="1140,155" size="85,30" font="Regular; 23" backgroundColor="background1" foregroundColor="white" transparent="1" valign="center" halign="center" />
+    <eLabel text="INFO" position="1050,155" size="85,30" font="Regular; 23" backgroundColor="background1" foregroundColor="white" transparent="1" halign="center" />
+    <widget name="date" position="388,156" size="268,30" font="Regular;24" valign="center" halign="right" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="414,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="599,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" position="787,118" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_blue.png" position="972,118" size="30,30" alphatest="on" transparent="1" />
+    <widget name="key_red" position="446,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="632,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_yellow" position="819,118" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_blue" position="1005,118" zPosition="1" size="164,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="GraphMultiEPG" position="center,85" size="1200,600" title="Electronic Program Guide">
+    <widget source="Event" render="Label" position="0,483" size="80,43" font="Regular; 28" backgroundColor="background1" transparent="1" foregroundColor="background">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">
+      </convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="0,5" size="1200,2" zPosition="1" foregroundColor="background1" />
+    <eLabel backgroundColor="grey" position="0,412" size="1200,2" zPosition="1" foregroundColor="background1" />
+    <eLabel backgroundColor="grey" position="414,595" size="785,2" zPosition="1" foregroundColor="background1" />
+    <widget source="Event" render="Label" position="301,482" size="99,43" font="Regular; 28" backgroundColor="background1" transparent="1" halign="right" foregroundColor="background">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format: %H:%M</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Progress" pixmap="Mambas_HD_V5/m65_back/event_prog.png" position="76,501" size="241,6" borderWidth="1" borderColor="grey" zPosition="7" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="Event" render="Label" position="414,418" size="785,174" font="Regular; 23" foregroundColor="lightgrey" backgroundColor="background1" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget source="Event" render="Label" position="0,418" font="Regular;28" size="400,67" zPosition="1" backgroundColor="background1" transparent="1" halign="center">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="250,538" size="149,29" font="Regular; 23" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" halign="right">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="2,538" size="146,29" font="Regular; 23" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" halign="left" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="timeline_text" position="1,8" size="1196,22" selectionDisabled="1" transparent="1" />
+    <widget name="list" position="2,31" size="1196,380" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="timeline_now" position="2,32" zPosition="2" size="15,380" pixmap="Mambas_HD_V5/m65_back/timeline-now.png" alphatest="blend" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="0,572" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="204,572" size="35,30" alphatest="on" />
+    <widget name="key_red" position="36,572" zPosition="1" size="164,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="241,572" zPosition="1" size="164,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="Menu" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="888,19" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="Leuchtgelb" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 36)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="916,29" size="360,40" font="Regular; 25" halign="center" transparent="1" valign="center" zPosition="0" backgroundColor="background1" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/setup.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+  </screen>
+  <screen name="menu_mainmenu" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <widget source="session.CurrentService" render="MaggyRunningText" position="27,29" size="244,40" backgroundColor="background1" noWrap="1" transparent="1" zPosition="2" foregroundColor="un9f1313" font="Regular;26" valign="center" halign="left" options="movetype=running,direction=left,step=5,steptime=25,startdelay=1000,pause=1000,startpoint=435,always=1">
+      <convert type="MaggyStaticText">For Support and contact me at ~http://www.crosatelite.com ~ mamba65 ~</convert>
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/infopanel.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">Infopanel</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/media.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">dmc_mainmenu</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/shutdown.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">standby_restart_list</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/google.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">googlemaps</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/setup.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">setup_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/plugin2.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">plugin_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/info.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">info_screen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/scart.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">scart_switch</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/timer.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">timer_menu</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/timer.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">timer_edit</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/media.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">media_player</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/dvd.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">dvd_player</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/sub.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">subtitle_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/filecom.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">filecommand</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/mqb.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">multi_quick</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/movieb.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">moviebrowser</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1281,720" alphatest="on" transparent="1" zPosition="-1" />
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/ondemand.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">ondemand</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/hbb.png" position="324,473" size="118,118" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">hbbtv_browser</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/web.png" position="324,473" size="118,118" zPosition="2" alphatest="blend">
+      <convert type="MenuEntryCompare">web_browser</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/youtubetv.png" position="324,473" size="118,118" alphatest="blend">
+      <convert type="MenuEntryCompare">youtube_tv</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/tspanel_mainmenu.png" position="324,473" size="118,118" alphatest="blend" transparent="1">
+      <convert type="MenuEntryCompare">tspanel_mainmenu</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/TURKvod.png" position="324,473" size="118,118" alphatest="blend" zPosition="1">
+      <convert type="MenuEntryCompare">tuerk_vod</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <screen name="menu_system" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <widget source="session.CurrentService" render="MaggyRunningText" position="27,29" size="244,40" backgroundColor="background1" noWrap="1" transparent="1" zPosition="2" foregroundColor="un9f1313" font="Regular;26" valign="center" halign="left" options="movetype=running,direction=left,step=5,steptime=25,startdelay=1000,pause=1000,startpoint=435,always=1">
+      <convert type="MaggyStaticText">For Support and contact me at ~http://www.crosatelite.com ~ mamba65 ~</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/setup.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+  </screen>
+  <screen name="menu_setup" position="0,0" size="1280,720" title="Main menu" flags="wfNoBorder" backgroundColor="transparent">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/tuner.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">service_searching_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/setup.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">system_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/camd.png" position="324,473" size="128,128" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">ci_assign</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/camd.png" position="324,473" size="128,128" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">ci_setup</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/camd.png" position="324,473" size="128,128" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">cam_setup</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/look.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">parental_setup</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/merlin.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">startwizzard</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/reset.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">factory_reset</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/softupdate.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">software_update</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <screen name="menu_timermenu" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="center,center" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/timer.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_extended" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/setup.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+  </screen>
+  <screen name="menu_osd_menu" position="center,center" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/setup.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+  </screen>
+  <screen name="menu_network" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/net.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_epg" position="0,0" size="1280,720" title="Main menu..." backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/setup.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+  </screen>
+  <screen name="menu_epgloadsave_menu" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/setup.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+  </screen>
+  <screen name="menu_harddisk..." position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/hdd.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_information" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/setup.png" position="324,473" size="118,118" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/service_info.png" position="324,473" size="118,118" transparent="1" zPosition="5" alphatest="blend">
+      <convert type="MenuEntryCompare">service_info_screen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/info.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">about_screen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <screen name="menu_scan" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_icons/tuner.png" position="324,473" size="118,118" alphatest="blend" />
+  </screen>
+  <screen name="menu_shutdown" position="0,0" size="1283,723" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="global.CurrentTime" render="Label" position="833,22" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="title" render="Label" position="35,638" size="1203,67" font="Replacement; 70" backgroundColor="background1" transparent="1" valign="center" zPosition="0" halign="center" />
+    <widget source="menu" render="Listbox" enableWrapAround="1" position="454,445" size="492,186" zPosition="1" scrollbarMode="showNever" alphatest="blend" foregroundColor="un9f1313" selectionPixmap="Mambas_HD_V5/m65_menu/sel_40x40.png" transparent="1" backgroundPixmap="Mambas_HD_V5/m65_menu/bg40x40.png">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (60,8), size = (478, 60), flags = RT_HALIGN_LEFT, text = 0),
+				],
+				"fonts": [gFont("Regular", 34)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="919,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/shutdown.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">deep_standby</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/restart.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">restart</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/restart_enigma.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">restart_enigma</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/restart.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">Hardreset</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/power.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">standby</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="Mambas_HD_V5/m65_icons/shutdowntimer.png" position="324,473" size="118,118" transparent="1" alphatest="blend">
+      <convert type="MenuEntryCompare">sleep</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <screen name="PluginBrowser" position="0,0" size="1280,720" title="Softwaremanager..." backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="932,435" zPosition="4" size="29,200" pixmap="Mambas_HD_V5/m65_back/maxbar.png" alphatest="blend" transparent="1" />
+    <ePixmap position="932,635" zPosition="4" size="29,9" pixmap="Mambas_HD_V5/m65_back/endbar.png" alphatest="blend" transparent="1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="-1,center" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+    <ePixmap alphatest="blend" pixmap="Mambas_HD_V5/m65_icons/plugin2.png" position="319,485" size="118,118" />
+    <widget source="global.CurrentTime" render="Label" position="962,35" size="262,29" zPosition="1" font="Regular; 20" halign="center" backgroundColor="background1" transparent="1" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A - %d.%m.%Y</convert>
+    </widget>
+    <widget source="Title" render="Label" halign="left" position="418,644" size="829,68" font="Replacement; 50" backgroundColor="background1" transparent="1" />
+    <widget name="list" position="443,436" size="517,200" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="877,24" size="157,40" font="Replacement; 40" backgroundColor="background1" transparent="1" foregroundColor="un9f1313" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="67,644" size="35,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="67,677" size="35,30" alphatest="on" />
+    <widget name="red" position="97,644" zPosition="1" size="220,30" font="Regular;24" halign="center" valign="center" backgroundColor="background1" transparent="1" />
+    <widget name="green" position="95,677" zPosition="1" size="220,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="ChoiceBox" position="0,0" size="1280,720" title="ChoiceBox..." backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="932,435" zPosition="4" size="29,200" pixmap="Mambas_HD_V5/m65_back/maxbar.png" alphatest="blend" transparent="1" />
+    <ePixmap position="932,635" zPosition="4" size="29,8" pixmap="Mambas_HD_V5/m65_back/endbar.png" alphatest="blend" transparent="1" />
+    <ePixmap alphatest="blend" pixmap="Mambas_HD_V5/m65_icons/system_selection.png" position="320,478" size="118,118" />
+    <widget source="Title" render="Label" halign="center" position="51,642" size="1203,79" font="Replacement; 70" backgroundColor="background1" transparent="1" />
+    <widget name="text" position="405,32" size="455,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" halign="center" />
+    <widget name="list" position="443,436" size="517,200" zPosition="1" itemHeight="35" scrollbarMode="showOnDemand" foregroundColor="white" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="871,26" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="916,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+  </screen>
+  <screen name="ChannelContextMenu" position="0,0" size="1280,720" title="Choose bouquet..." backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="932,435" zPosition="4" size="29,200" pixmap="Mambas_HD_V5/m65_back/maxbar.png" alphatest="blend" transparent="1" />
+    <ePixmap alphatest="blend" pixmap="Mambas_HD_V5/m65_icons/system_selection.png" position="321,486" size="118,118" />
+    <ePixmap position="932,635" zPosition="4" size="29,8" pixmap="Mambas_HD_V5/m65_back/endbar.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" halign="center" position="51,642" size="1203,79" font="Replacement; 50" backgroundColor="background1" transparent="1" />
+    <widget name="menu" enableWrapAround="1" position="443,436" size="517,200" zPosition="1" itemHeight="35" scrollbarMode="showAlways" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="870,28" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="916,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+    <widget name="text" position="388,33" size="455,26" font="Regular;26" foregroundColor="white" backgroundColor="background1" transparent="1" halign="center" />
+  </screen>
+  <screen name="ChannelSelectionDisplaySettings" position="0,0" size="1280,720" title="ChannelSelection Display Settings" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="Title" render="Label" halign="left" position="370,650" size="900,58" font="Console; 30" backgroundColor="background1" transparent="1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="104,645" size="35,30" alphatest="on" />
+    <ePixmap alphatest="blend" pixmap="Mambas_HD_V5/m65_icons/system_selection.png" position="320,476" size="118,118" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="104,687" size="35,30" alphatest="on" />
+    <widget source="key_red" render="Label" position="138,646" zPosition="1" size="164,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+    <widget source="key_green" render="Label" position="138,687" zPosition="1" size="164,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="config" enableWrapAround="1" position="442,442" size="505,191" zPosition="1" itemHeight="35" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="881,28" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="916,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+  </screen>
+  <screen name="LocationBox" position="251,163" size="739,459" title="Select Location">
+    <widget name="text" position="8,7" size="725,30" font="Regular;25" halign="left" backgroundColor="background1" transparent="1" />
+    <widget name="target" position="6,49" size="726,22" valign="center" font="Regular;22" transparent="1" foregroundColor="grey" />
+    <widget name="filelist" position="39,76" zPosition="1" size="694,254" scrollbarMode="showOnDemand" selectionDisabled="1" transparent="1" />
+    <widget name="textbook" position="8,344" size="724,28" font="Regular;22" transparent="1" foregroundColor="grey" />
+    <widget name="booklist" position="39,376" zPosition="2" size="695,35" itemHeight="35" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="7,423" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="176,423" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" position="346,423" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_blue.png" position="521,423" size="30,30" alphatest="on" transparent="1" />
+    <widget name="key_red" position="38,423" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="207,423" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_yellow" position="377,423" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_blue" position="546,423" zPosition="1" size="186,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="SkinSelector" position="0,0" size="1280,720" title="Choose your Skin..." backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="Title" render="Label" halign="center" position="364,666" size="549,36" font="Replacement; 30" backgroundColor="background1" transparent="1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="982,669" size="35,30" alphatest="on" />
+    <widget source="key_red" render="Label" position="1010,669" zPosition="1" size="236,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="SkinList" position="635,442" size="322,192" itemHeight="55" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="Preview" position="315,442" size="315,192" alphatest="blend" backgroundColor="transpBlack" />
+    <widget source="introduction" render="Label" position="365,643" size="547,24" font="Replacement; 20" halign="center" transparent="1" backgroundColor="transpBlack" />
+    <ePixmap position="930,441" zPosition="4" size="29,194" pixmap="Mambas_HD_V5/m65_back/maxbar.png" alphatest="blend" transparent="1" />
+    <ePixmap position="930,633" zPosition="4" size="29,8" pixmap="Mambas_HD_V5/m65_back/endbar.png" alphatest="blend" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="872,28" size="120,50" font="Replacement; 35" halign="center" backgroundColor="background1" transparent="1" valign="center" foregroundColor="un9f1313">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="916,29" size="360,40" font="Regular; 25" halign="center" backgroundColor="background1" transparent="1" valign="center" zPosition="0" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A %d %B</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/menu_bg.png" position="0,0" size="1280,720" alphatest="on" transparent="1" zPosition="-1" />
+  </screen>
+  <screen name="MovieContextMenu" position="0,0" size="1280,720" title="Movielist menu" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" size="1278,720" zPosition="-1" pixmap="Mambas_HD_V5/m65_back/Movielist.png" />
+    <widget source="Title" render="Label" halign="left" position="513,60" size="594,77" font="Replacement; 70" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="1115,104" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,62" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="menu" position="613,181" size="649,491" itemHeight="35" scrollbarMode="showOnDemand" transparent="1" />
+  </screen>
+  <screen name="MovieSelection" position="0,-15" size="1280,720" title="InfoBar" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="0,0" size="1280,720" pixmap="Mambas_HD_V5/m65_back/MovieSelection.png" backgroundColor="transparent" zPosition="-1" />
+    <widget source="global.CurrentTime" render="Label" position="83,69" size="121,29" font="Regular; 22" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="left">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="205,69" size="130,29" font="Regular; 22" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="list" position="55,175" size="616,466" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="Service" render="Label" position="758,172" size="200,26" font="Regular;26" backgroundColor="background1" transparent="1" zPosition="1">
+      <convert type="ServiceTime">StartTime</convert>
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="Service" render="Label" position="758,202" zPosition="1" size="140,26" font="Regular;26" backgroundColor="background1" halign="left" transparent="1">
+      <convert type="ServiceTime">Duration</convert>
+      <convert type="ClockToText">InMinutes</convert>
+    </widget>
+    <eLabel text="Size:" position="688,232" size="150,26" font="Regular;26" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <widget source="Service" render="Label" position="758,232" zPosition="1" size="190,26" font="Regular;26" halign="left" backgroundColor="background1" transparent="1">
+      <convert type="MovieInfo">FileSize</convert>
+    </widget>
+    <widget name="freeDiskSpace" position="83,100" size="294,26" font="Regular; 24" foregroundColor="undcdcdc" backgroundColor="background1" transparent="1" />
+    <widget source="Service" render="Label" position="689,273" size="530,365" font="Regular; 24" backgroundColor="background1" transparent="1" foregroundColor="un808888">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <eLabel backgroundColor="grey" position="678,175" size="2,466" zPosition="1" foregroundColor="background1" />
+    <eLabel text="Date:" position="688,172" size="150,26" font="Regular;26" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <eLabel text="Time:" position="688,202" size="150,26" font="Regular;26" backgroundColor="background1" transparent="1" foregroundColor="lightgrey" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="57,643" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="247,641" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" position="434,642" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_blue.png" position="622,643" size="30,30" alphatest="on" transparent="1" />
+    <widget name="key_red" position="95,643" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_green" position="281,643" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_yellow" position="469,643" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="key_blue" position="658,643" zPosition="1" size="164,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="About" position="275,178" size="749,414" title="About">
+    <widget source="global.CurrentTime" render="Label" position="489,345" size="262,29" zPosition="1" font="Regular; 20" halign="center" backgroundColor="background1" transparent="1" foregroundColor="un9f1313">
+      <convert type="ClockToText">Format: %A - %d.%m.%Y</convert>
+    </widget>
+    <widget source="session.CurrentService" render="MaggyRunningText" position="567,376" size="181,40" backgroundColor="background1" noWrap="1" transparent="1" zPosition="2" foregroundColor="wm_napis" font="Regular;26" valign="center" halign="left" options="movetype=running,direction=left,step=5,steptime=25,startdelay=1000,pause=1000,startpoint=435,always=1">
+      <convert type="MaggyStaticText">For Support and contact me at ~http://www.crosatelite.com ~ mamba65 ~</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="367,334" size="156,40" font="Regular; 45" backgroundColor="background1" transparent="1" foregroundColor="orange1" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <eLabel text="Modified By mamba65" position="353,27" size="396,60" font="Regular; 42" backgroundColor="background" transparent="1" foregroundColor="white" halign="center" />
+    <eLabel text="Skin: ~Mambas_HD_V5 ~" position="377,-5" size="363,32" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" foregroundColor="un9f1313" />
+    <widget source="EnigmaVersion" render="Label" position="15,32" size="340,30" font="Regular;21" />
+    <widget source="ImageVersion" render="Label" position="15,62" size="340,30" font="Regular;21" />
+    <widget source="FPVersion" render="Label" position="15,93" size="340,30" font="Regular;21" />
+    <widget source="TunerHeader" render="Label" position="15,123" size="340,30" font="Regular;21" />
+    <widget source="Tuner0" render="Label" position="15,154" size="340,40" font="Regular;21" />
+    <widget source="Tuner1" render="Label" position="15,196" size="340,40" font="Regular;21" />
+    <widget source="Tuner2" render="Label" position="15,237" size="340,30" font="Regular;21" />
+    <widget source="Tuner3" render="Label" position="15,267" size="340,30" font="Regular;21" />
+    <widget source="HDDHeader" render="Label" position="15,298" size="340,30" font="Regular;21" />
+    <widget source="hddA" render="Label" position="15,328" size="340,80" font="Regular;21" />
+    <ePixmap position="434,89" zPosition="-9" size="250,230" pixmap="Mambas_HD_V5/prev.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="366,379" size="35,30" alphatest="on" />
+    <widget source="key_green" render="Label" position="403,379" zPosition="1" size="164,30" font="Regular;24" halign="center" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="LanguageSelection" position="231,145" size="806,520" title="Language selection">
+    <ePixmap position="606,227" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/language.png" transparent="1" alphatest="blend" />
+    <widget source="global.CurrentTime" render="Label" position="604,41" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="600,0" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="languages" render="Listbox" enableWrapAround="1" position="3,3" size="505,518" zPosition="1" scrollbarMode="showOnDemand" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryPixmap(pos = (20, 10), size = (60, 40), png = 2), # index 2 is the pixmap,
+						MultiContentEntryText(pos = (100, 17), size = (340, 30), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name
+					],
+				 "fonts": [gFont("Regular", 26)],
+				 "itemHeight": 65
+				}
+			</convert>
+    </widget>
+  </screen>
+  <screen name="ParentalControlChangePin" position="300,211" size="696,395" title="Change pin code">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="4,12" size="412,377" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap position="507,178" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/parental_setup.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ParentalControlSetup" position="300,211" size="696,395" title="Change pin code">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="4,12" size="412,377" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap position="490,154" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/parental_setup.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ParentalControlEditor" position="300,211" size="696,395" title="Change pin code">
+    <widget source="global.CurrentTime" render="Label" position="496,72" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,30" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="servicelist" position="4,12" size="412,377" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap position="501,143" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/parental_setup.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ServiceInfo" position="217,185" size="813,406" title="Serviceinfo">
+    <widget source="global.CurrentTime" render="Label" position="609,36" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="605,0" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="infolist" position="4,3" size="548,341" scrollbarMode="showNever" transparent="1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="10,374" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="195,374" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" position="382,374" size="30,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_blue.png" position="569,374" size="30,30" alphatest="on" transparent="1" />
+    <widget name="red" position="42,374" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="green" position="226,374" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="yellow" position="414,374" zPosition="1" size="150,30" font="Regular; 22" halign="center" backgroundColor="background1" transparent="1" />
+    <widget name="blue" position="600,374" zPosition="1" size="164,30" font="Regular; 24" halign="center" backgroundColor="background1" transparent="1" />
+    <ePixmap position="618,137" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/info.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="NimSelection" position="206,113" size="843,505" title="Choose Tuner">
+    <widget source="global.CurrentTime" render="Label" position="659,41" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="nimlist" render="Listbox" position="5,66" size="568,370" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryText(pos = (10, 5), size = (580, 30), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the nim name,
+						MultiContentEntryText(pos = (50, 35), size = (540, 80), font = 1, flags = RT_HALIGN_LEFT | RT_WRAP, text = 2), # index 2 is a description of the nim settings,
+					],
+				 "fonts": [gFont("Regular", 22), gFont("Regular", 18)],
+				 "itemHeight": 85
+				}
+			</convert>
+    </widget>
+    <ePixmap position="661,242" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="NimSetup" position="206,113" size="843,505" title="Reception Settings">
+    <widget source="global.CurrentTime" render="Label" position="659,41" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="5,66" size="568,370" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap position="656,240" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ScanSetup" position="206,113" size="843,505" title="Service scan">
+    <widget source="global.CurrentTime" render="Label" position="659,41" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="5,66" size="568,370" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="introduction" position="5,452" size="568,25" font="Regular;23" halign="left" backgroundColor="background1" transparent="1" />
+    <ePixmap position="659,236" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ScanSimple" position="206,113" size="843,505" title="Service scan">
+    <widget source="global.CurrentTime" render="Label" position="659,41" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="header" position="5,466" size="568,22" font="Regular; 20" transparent="1" />
+    <widget name="config" position="5,66" size="568,370" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="footer" position="5,442" size="568,20" font="Regular; 20" halign="left" />
+    <ePixmap position="669,245" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="ServiceScan" position="206,113" size="843,505" title="Service Scan">
+    <widget source="global.CurrentTime" render="Label" position="659,41" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="655,0" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="FrontendInfo" render="Pixmap" pixmap="skin_default/icons/scan-s.png" position="765,175" size="64,64" transparent="1" alphatest="on">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="FrontendInfo" render="Pixmap" pixmap="skin_default/icons/scan-c.png" position="185,280" size="64,64" transparent="1" alphatest="on">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">1,1</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="FrontendInfo" render="Pixmap" pixmap="skin_default/icons/scan-t.png" position="185,280" size="64,64" transparent="1" alphatest="on">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">2,2</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="servicelist" position="4,18" size="560,319" selectionDisabled="1" transparent="1" />
+    <widget name="network" position="4,343" size="560,25" font="Regular;22" backgroundColor="background1" transparent="1" />
+    <widget name="transponder" position="4,376" size="560,25" font="Regular;22" backgroundColor="background1" transparent="1" />
+    <widget name="scan_state" position="4,408" size="560,25" zPosition="2" font="Regular;20" backgroundColor="background1" transparent="1" />
+    <widget name="pass" position="4,442" size="560,25" font="Regular;20" backgroundColor="background1" transparent="1" />
+    <ePixmap position="4,479" zPosition="1" size="558,14" pixmap="Mambas_HD_V5/m65_back/progress_big_bg.png" alphatest="blend" />
+    <widget name="scan_progress" position="6,481" zPosition="2" size="554,10" pixmap="Mambas_HD_V5/m65_back/progress_big.png" backgroundColor="transpBlack" />
+    <ePixmap position="678,252" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/service_searching_selection.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="TimerEntry" position="210,207" size="842,389" title="Timer entry">
+    <widget source="global.CurrentTime" render="Label" position="631,42" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="625,0" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="config" position="4,1" size="549,335" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="cancel" pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="4,353" size="140,30" alphatest="on" />
+    <widget name="ok" pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="177,353" size="140,30" alphatest="on" />
+    <widget name="canceltext" position="35,353" size="140,30" zPosition="1" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="oktext" position="209,353" size="140,30" zPosition="1" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <ePixmap position="644,144" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/timer.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="TimerEditList" position="210,207" size="842,389" title="Timer Editor">
+    <widget source="global.CurrentTime" render="Label" position="631,42" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="625,0" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="timerlist" position="4,1" size="549,335" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="4,353" size="140,30" transparent="1" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="177,353" size="140,30" transparent="1" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" position="353,353" size="140,30" alphatest="on" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_blue.png" position="527,353" size="140,30" alphatest="on" />
+    <widget name="key_red" position="35,353" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="key_green" position="209,353" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="key_yellow" position="385,353" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="key_blue" position="559,353" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <ePixmap position="634,138" size="118,118" zPosition="2" pixmap="Mambas_HD_V5/m65_menu/timer.png" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="SleepTimerEdit" position="320,227" size="623,322" title="Sleep Timer">
+    <widget name="pretext" position="14,23" size="320,25" font="Regular;22" transparent="1" />
+    <widget name="input" position="352,23" size="51,25" font="Regular;22" transparent="1" />
+    <widget name="aftertext" position="416,23" size="100,25" font="Regular;22" transparent="1" />
+    <widget name="current_status" position="14,55" size="400,30" valign="center" font="Regular;22" transparent="1" />
+    <widget name="red" pixmap="Mambas_HD_V5/m65_buttons/key_red.png" position="14,137" size="140,30" transparent="1" alphatest="on" />
+    <widget name="green" pixmap="Mambas_HD_V5/m65_buttons/key_green.png" position="14,181" size="140,30" transparent="1" alphatest="on" />
+    <widget name="yellow" pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" position="14,224" size="140,30" alphatest="on" />
+    <widget name="blue" pixmap="Mambas_HD_V5/m65_buttons/key_blue.png" position="14,269" size="140,30" alphatest="on" />
+    <widget name="red_text" position="46,137" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="green_text" position="46,181" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="yellow_text" position="46,224" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget name="blue_text" position="46,269" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="MediaPlayer" position="0,0" size="1280,720" title="MediaPlayer" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="Mambas_HD_V5/m65_back/MediaPlayer.png" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="150,51" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="left">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1004,51" size="130,28" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="right" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <eLabel text="F i l e l i s t" position="323,65" size="115,30" zPosition="5" halign="center" font="Regular;22" backgroundColor="background1" transparent="1" />
+    <widget name="coverArt" position="477,448" size="105,105" pixmap="Mambas_HD_V5/m65_menu/no_coverArt.png" alphatest="blend" />
+    <widget name="filelist" position="152,119" size="477,295" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="artisttext" position="639,455" size="100,25" font="Regular;20" valign="top" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="artist" position="746,455" size="379,25" font="Regular;20" valign="top" backgroundColor="background1" transparent="1" />
+    <widget name="albumtext" position="639,485" size="110,25" font="Regular;20" valign="top" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="album" position="746,485" size="379,25" font="Regular;20" valign="top" backgroundColor="background1" transparent="1" />
+    <widget name="yeartext" position="639,515" size="110,25" font="Regular;20" valign="top" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="year" position="746,515" size="379,25" font="Regular;20" valign="top" backgroundColor="background1" transparent="1" />
+    <widget name="genretext" position="638,547" size="110,25" font="Regular;20" valign="top" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="genre" position="746,546" size="379,25" font="Regular;20" backgroundColor="background1" transparent="1" />
+    <eLabel name="nowPlaying" position="637,577" size="151,33" font="Regular; 26" valign="center" text="Now Playing" foregroundColor="white" backgroundColor="background1" transparent="1" />
+    <widget name="title" position="792,577" size="336,33" font="Regular; 26" valign="center" backgroundColor="background1" transparent="1" halign="center" />
+    <eLabel text="P l a y l i s t" position="802,67" size="140,30" zPosition="5" halign="center" font="Regular;22" backgroundColor="background1" transparent="1" />
+    <widget name="playlist" position="655,119" size="477,295" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="PositionGauge" position="652,622" size="468,15" pointer="Mambas_HD_V5/m65_back/position_pointer.png:468,0" seek_pointer="Mambas_HD_V5/m65_back/position_pointer.png:468,0" transparent="1" />
+  </screen>
+  <screen name="Console" position="center,100" size="888,580" title="Command execution...">
+    <widget source="global.CurrentTime" render="Label" position="666,44" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="662,3" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/console.png" zPosition="2" position="669,308" size="118,118" alphatest="blend" />
+    <widget name="text" position="8,8" size="538,563" font="Console; 18" foregroundColor="white" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="MerlinDownloadBrowser" position="center,100" size="888,580" title="Addon Manager">
+    <widget source="global.CurrentTime" render="Label" position="666,44" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="662,3" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/merlin.png" zPosition="2" position="675,369" size="118,118" alphatest="blend" />
+    <widget name="list" position="8,8" size="538,563" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="text" position="568,93" size="307,228" font="Regular;25" halign="center" foregroundColor="grey" backgroundColor="background1" transparent="1" />
+  </screen>
+  <screen name="BackupSelection" position="235,137" size="821,480" title="Select files/folders to backup">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/settings.png" zPosition="2" position="622,225" size="118,118" alphatest="blend" />
+    <widget name="checkList" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_green.png" alphatest="on" />
+    <ePixmap name="key_yellow_pixmap" position="357,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget source="key_yellow" render="Label" position="387,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="IpkgInstaller" position="235,137" size="821,480" title="Ipkg Installer...">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/settings.png" zPosition="2" position="622,263" size="118,118" alphatest="blend" />
+    <widget name="list" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="introduction" render="Label" position="540,91" size="270,146" font="Regular; 17" halign="center" backgroundColor="background1" transparent="1" foregroundColor="un808888" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_green.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="IPKGMenu" position="235,137" size="821,480" title="Select IPKG source...">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/settings.png" zPosition="2" position="616,243" size="118,118" alphatest="blend" />
+    <widget name="filelist" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_green.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="PacketManager" position="235,137" size="821,480" title="IPKG upgrade...">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="list" render="Listbox" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1">
+      <convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryText(pos = (10, 5), size = (670, 28), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+						MultiContentEntryText(pos = (10, 35), size = (670, 20), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the description
+						MultiContentEntryPixmapAlphaTest(pos = (650, 5), size = (48, 48), png = 4), # index 4 is the status pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (5, 58), size = (0, 0), png = 5), # index 4 is the div pixmap
+					],
+				"fonts": [gFont("Regular", 22),gFont("Regular", 17)],
+				"itemHeight": 60
+				}
+			</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/settings.png" zPosition="2" position="625,233" size="118,118" alphatest="blend" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_green.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;20" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="RestoreMenu" position="235,137" size="821,480" title="Restore Backups">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="filelist" position="4,6" size="523,426" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/settings.png" zPosition="2" position="626,229" size="118,118" alphatest="blend" />
+    <ePixmap name="key_red_pixmap" position="4,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_red.png" transparent="1" alphatest="on" />
+    <ePixmap name="key_green_pixmap" position="180,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_green.png" alphatest="on" />
+    <ePixmap name="key_yellow_pixmap" position="357,448" size="140,30" pixmap="Mambas_HD_V5/m65_buttons/key_yellow.png" alphatest="on" />
+    <widget source="key_red" render="Label" position="35,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget source="key_green" render="Label" position="211,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+    <widget source="key_yellow" render="Label" position="387,448" size="140,30" zPosition="11" font="Regular;22" valign="top" halign="center" transparent="1" />
+  </screen>
+  <screen name="UpdatePluginMenu" position="235,137" size="821,480" title="Softwaremanager...">
+    <widget source="global.CurrentTime" render="Label" position="616,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="611,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/settings.png" zPosition="2" position="621,267" size="118,118" alphatest="blend" />
+    <widget source="menu" render="Listbox" position="4,6" size="523,426" scrollbarMode="showOnDemand" transparent="1">
+      <convert type="TemplatedMultiContent">
+					{"template": [
+							MultiContentEntryText(pos = (25, 7), size = (323, 30), flags = RT_HALIGN_LEFT, text = 1), # index 0 is the MenuText,
+						],
+					"fonts": [gFont("Regular", 22)],
+					"itemHeight": 40
+					}
+				</convert>
+    </widget>
+    <widget source="menu" render="Listbox" position="542,88" size="272,147" scrollbarMode="showNever" selectionDisabled="1" transparent="1">
+      <convert type="TemplatedMultiContent">
+					{"template": [
+							MultiContentEntryText(pos = (2, 2), size = (272, 147), flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER|RT_WRAP, text = 2), # index 2 is the Description,
+						],
+					"fonts": [gFont("Regular", 20)],
+					"itemHeight": 147
+					}
+				</convert>
+    </widget>
+  </screen>
+  <screen name="DreamCC" position="283,165" size="689,440" title="DreamCC">
+    <widget source="global.CurrentTime" render="Label" position="496,56" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="491,14" size="130,40" font="Regular; 45" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="Mambas_HD_V5/m65_menu/camd.png" zPosition="2" position="505,182" size="128,128" alphatest="blend" />
+    <widget itemHeight="35" enableWrapAround="1" name="menu" zPosition="1" position="4,19" scrollbarMode="showOnDemand" size="442,344" transparent="1" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_red.png" zPosition="2" position="21,401" size="30,30" alphatest="blend" transparent="0" />
+    <ePixmap pixmap="Mambas_HD_V5/m65_buttons/key_green.png" zPosition="2" position="174,401" size="30,30" alphatest="blend" transparent="0" />
+    <eLabel text="Stop" position="54,400" size="115,30" zPosition="5" halign="center" font="Regular; 24" backgroundColor="background1" transparent="1" />
+    <eLabel text="Start" position="206,401" size="115,30" zPosition="5" halign="center" font="Regular; 24" backgroundColor="background1" transparent="1" />
+  </screen>
+</skin>
